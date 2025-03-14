@@ -23,14 +23,13 @@ import 'package:todo_app/cubit.dart';
 //
 //
 // )
-// add frfvaeraerferg
 
 Widget buildTaskItem(Map model, context)=>Padding(
   padding: const EdgeInsets.all(15.0),
   child: Row(
     children: [
       CircleAvatar(
-        radius: 50,
+        radius: 45,
         child: Text('${model['time']}'),
       ),
       SizedBox(
